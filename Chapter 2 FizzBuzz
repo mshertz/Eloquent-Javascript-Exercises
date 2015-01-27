@@ -1,0 +1,8 @@
+for (var line = 1; line < 101; line += 1)
+  if (line % 3 == 0 && line % 5 != 0)
+    console.log("Fizz");
+  else if (line % 5 == 0 && line % 3 != 0)
+    console.log("Buzz");
+  else if (line % 5 == 00 && line % 3 == 0)
+    console.log("FizzBuzz");
+  else console.log(line);
